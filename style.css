@@ -1,0 +1,107 @@
+body
+{
+    text-align: center;
+    background: url("Paintbg.jpg")center center fixed;
+    background-size: cover;
+}
+.header
+{
+    background: linear-gradient(#fff,rgba(67,169,228,0.9));
+    color: #000;
+    height: 20px;
+    width: 450px;
+    margin:10px auto;
+    font-size: 3em;
+    line-height: 80px;
+    visibility: hidden;
+}
+/* Input Container */
+.inputContainer
+{
+    width: 200px;
+    margin: 0 auto;
+}
+/* Color, Line thickness, Slider input  */
+.input
+{
+    height: 15px;
+    font-size: 1.3em;
+}
+#slider{
+    margin: 5px auto;   
+}
+
+#circle
+{
+    position: absolute;
+    height: 3px;
+    width:3px;
+    border-radius: 50%;
+    background-color: #000;
+    margin:10px auto;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-90%);
+}
+#thicknessInput
+{
+    position: relative;
+    height: 50px;
+}
+#container
+{
+    width:500px;
+    height:400px;
+    border:1px solid rgba(122,174,229,0.5);
+    margin:10px auto;
+    /* margin-top: 55px; */
+    /* margin-bottom: 20px; */
+}
+#paint
+{
+    background-color: #fff;
+    cursor: crosshair;
+}
+/* Input Container2 */
+.inputContainerT
+{
+    width: 399px;
+    margin: 0 auto;
+}
+
+/* erase, save and reset buttons */
+.input2
+{
+    margin-top: 10px;
+    width: 130px;
+    color:#5BB4E7;
+    font-size:1.3em;
+    float: left;
+}
+.button
+{
+    background:#fff;
+    height: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0px 4px rgba(0,0,0,0.2);
+    position: relative;
+}
+.button:hover
+{
+    /* background:linear-gradient(#fff,rgba(67,169,228,0.9)); */
+    background:#5BB4E7;
+    color:#fff;
+}
+.button:active
+{
+    top:4px;
+    /* background-color: red; */
+}
+.eraseMode{
+    background-color: red;
+    color: white;
+}
